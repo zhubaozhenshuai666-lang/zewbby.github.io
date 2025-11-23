@@ -2,11 +2,84 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>zewbby</title>
+    <title>zewbby | Personal Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>zewbby的个人主页</h1>
-    <h1>Hello ~</h1>
+
+<canvas id="bg"></canvas>
+
+<header>
+    <div class="title">zewbby</div>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Hello, I'm <span class="accent">zewbby</span>.</h1>
+    <p class="subtitle">A coder, researcher, and builder of intelligent systems.</p>
+</section>
+
+<section id="about" class="content-section">
+    <h2>About Me</h2>
+    <p>
+        I'm a developer exploring AI, deep learning, graph neural networks, brain–computer interface (BCI),
+        and autonomous UAV systems.  
+        I build projects that combine intelligence, engineering, and creativity.
+    </p>
+</section>
+
+<section id="research" class="content-section">
+    <h2>Research Interests</h2>
+    <ul>
+        <li>Graph Neural Networks (GNNs)</li>
+        <li>Attention-based deep learning</li>
+        <li>EEG decoding & Brain–Computer Interface</li>
+        <li>Autonomous UAV navigation & swarm intelligence</li>
+        <li>High-performance model optimization</li>
+    </ul>
+</section>
+
+<section id="projects" class="content-section">
+    <h2>Featured Projects</h2>
+    <div class="project-list">
+        <div class="project-card">
+            <h3>DDF-BCI Model</h3>
+            <p>State-of-the-art EEG decoding model using dual-branch fusion.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>UAV Intelligence Suite</h3>
+            <p>Autonomous drone navigation: SLAM, obstacle avoidance, swarm intelligence.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>AI Attention Benchmarking</h3>
+            <p>Computational cost measurement for SE, CBAM, and MHA modules.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="content-section">
+    <h2>Contact</h2>
+    <p>Feel free to reach out.</p>
+    <div class="social-links">
+        <a href="mailto:youremail@example.com">Email</a>
+        <a href="https://github.com/zhubaozhenshuai666-lang">GitHub</a>
+        <a href="#">Blog</a>
+    </div>
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>
-
